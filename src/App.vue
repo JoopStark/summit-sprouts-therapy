@@ -6,7 +6,7 @@
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/images/website-BioKgo0U.png" />
+    <img alt="Summit Sprouts Therapy" class="logo" src="@/assets/images/sst-border.png" />
 
     <div class="wrapper">
       <address>
@@ -33,20 +33,39 @@
   <body>
     <div id="about">
       <h1>About Me</h1>
-      <p>Over the past 15 years as an occupational therapist I have worked with all age ranges, infancy to 90+ years
-        old, in numerous settings (early intervention, schools, home health, hospitals, and skilled nursing facilities).
-        I have supported clients with varied diagnoses such as ADHD, Sensory Processing Disorder, Autism, Down Syndrome,
-        Prader Willi’s, Cerebral Palsy, Developmental Delay, Stroke, Head trauma, Dementia, Cardiac Issues, Orthopedic
-        Injury, Aging in place and many more. What I have learned from all of these experiences is the importance of
-        appreciating the skills and talents we have no matter our circumstances. As an occupational therapist, it has
-        been my job and my joy to help support those in need to meet their goals of living independently and
-        participating in their desired activities on a daily basis.</p>
-      <aside>
-        Fees: $120 an hour (this is about the middle between what I get for EI and Medicaid billing. It is also $20-30
-        less then what other providers have for their consulting jobs–Counselor, PT in summit county→ so not competing
-        for jobs)
-      </aside>
+      <p>In my 15 years as an occupational therapist, I have worked with infants to seniors in a range of settings, from early intervention to schools, home health to hospitals and skilled nursing facilities. My clients arrive with a range of diagnoses, and together we find the best solutions to meet their needs for daily living. My career and calling is to help you meet your goals. I would love to learn more about you, and I offer a free 20 minute consultation to help determine your specific needs.</p>
+      <div id="diagnosis">
+        <h3>Examples of Diagnosis</h3>
+        <ul class="diagnosis">
+          <li>ADHD</li>
+          <li>Sensory Processing Disorder</li>
+          <li>Autism</li>
+          <li>Down Syndrome</li>
+          <li>Prader Willi's</li>
+          <li>Cerebral Palsy</li>
+          <li>Developmental Delay</li>
+        </ul>
+        <ul class="diagnosis">
+          <li>Avoidant/restrictive food intake</li>
+          <li>Dementia</li>
+          <li>Stroke</li>
+          <li>Cardiac Issues</li>
+          <li>Orthopedic Injury</li>
+          <li>Aging in Place</li>
+        </ul>
+      </div>
+    <div class="personal">
+      <img alt="profile-picture" class="picture" src="@/assets/images/profile-picture.jpg" height="200" />
+      <h3><b>Erin Stark OTR/L</b></h3>
+      <p><u>Education</u></p>
+      <p>B.S. Psychology</p>
+      <p>M.S. Occupational Therapy</p>
+      <p>M.Ed. Education Administration</p>
+
     </div>
+
+
+  </div>
 
     <div></div>
 
@@ -55,53 +74,52 @@
 
       <div id="occupation-therapy" class="service">
         <h2>Occupational Therapy</h2>
-        <p>The primary goal of occupational therapy is to ensure you can live independently and function in your daily
-          life skills. This can apply from infancy all the way to age 90+. I support my clients through addressing their
-          needs for motor skills, cognitive skills, social emotional skills, organizational skills, universal design
-          support and sensory processing skills which can impact all areas of life. My goal in providing occupational
-          therapy services is to help clients meet their goals to develop, recover, improve, and maintain skills needed
-          for daily living.
+        <p>The goal of occupational therapy is to make sure you can function independently in your daily life at any age. I can help you develop or recover necessary skills, including motor, cognitive, social emotional, organizational, or sensory processing skills.  My goal in providing occupational therapy services is to help you meet your goals.
         </p>
       </div>
 
       <div id="consulting" class="service">
-        <h2> Consulting </h2>
+        <h2> Community Consulting </h2>
         <p>
-          For providers and caregivers there is nothing more important than ensuring the children or adults we care for
-          are safe and have all of their needs met. As a consultant, I have developed various trainings to support in
-          numerous settings such as daycares, schools and public settings focusing on sensory processing, self
-          regulation and motor skills.
+          For providers and caregivers there is nothing more important than ensuring the children or adults we care for are safe and their needs are met. I provide trainings for daycares, schools and other community organizations focusing on sensory processing, self regulation, motor skills, and universal design. 
         </p>
         <h3 class="list">Services include:</h3>
         <ul>
-          <li>Location specific trainings to meet their needs and concerns</li>
-          <li>Instructional observations across settings</li>
+          <li>Location designed specific trainings based on initial consultation</li>
+          <li>Instructional observations offered in various time increments</li>
           <li>1:1, small group and full staff trainings</li>
-          <li>On going in class/ group support</li>
+          <li>Ongoing in class or group support</li>
         </ul>
       </div>
 
       <div id="advocacy" class="service">
         <h2>Advocacy</h2>
         <p>
-          As a parent, you always want to make sure your children are supported. Parents are the experts on their
-          children and what needs they may have. Schools have many systems in place to support children at their own
-          level. However understanding and learning what those supports are can be a challenge. Navigating the process
-          of 504, IEP or other supports can be overwhelming. Having worked in various educational school systems for the
-          past 13 years as well as gaining a Master’s of Education in Administration, I am well versed in the laws, and
-          services a school can provide. Summit Sprouts has designed its services to correspond with the needs of our
-          clients in order to provide a range of services on behalf of the students and families that we serve.
+          As a parent, you want the best for your child. Navigating school system supports, like an IEP or 504, is daunting. My work in schools for the last 13 years paired with my M.Ed. in Education Administration means I am well versed in the school services and regulations. I also know how important it is to ensure you have clear communication and a positive relationship with your child's school.
         </p>
         <h3 class="list">Services include:</h3>
         <ul>
           <li>Expert document analysis including reviewing educational services, student medical issues, and progress
             monitoring</li>
           <li>Educational records review</li>
-          <li>Instructional observations across educational settings</li>
-          <li>Proficient in educational program planning</li>
-          <li>Knowledgeable in school practices, school-based interventions, meeting procedures, and parental rights
+          <li>Instructional observations</li>
+          <li>Educational program planning</li>
+          <li>Advice regarding school-based interventions, goal writing, meeting procedures, and parental rights</li>
+          <li>Attending meetings with the school
           </li>
         </ul>
+      </div>
+
+      <div id="pricing" class="service">
+        <h2>Pricing</h2>
+        <p>$120 an hour</p>
+        <p>Sliding Scale available based on Income and Family Size</p>
+        <p>Discount Packages available for Consulting and Advocacy Services</p>
+        <br>
+        <p><u>Insurance for Occupational Therapy Services</u></p>
+        <p>Medicaid Accepted</p>
+        <p>Pending: CHP+, Blue Cross/ Blue Shield, Cigna, Aetna, United</p>
+      
       </div>
 
 
@@ -172,6 +190,26 @@ body div {
 ul {
   text-align: left;
 }
+
+div#diagnosis {
+  padding: 0;
+  h3 {
+    padding-bottom: 10px;
+  }
+
+
+}
+
+ul.diagnosis {
+  /* padding-top: 10px; */
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  vertical-align: top;
+  width: 280px;
+}
+
 
 aside {
   padding: 30px 20px 0px 20px;
