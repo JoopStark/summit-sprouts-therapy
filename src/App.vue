@@ -6,18 +6,17 @@
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="Vue logo" class="logo" src="@/assets/images/website-BioKgo0U.png" />
 
     <div class="wrapper">
-      <h1>Summit Mountain Sprouts</h1>
+      <address>
+        <span>Summit County, Colorado</span>
+        <span>(719) 838-3915</span>
+        <span>erin.stark@summitsproutstherapy.com</span>
+      </address>
       <blockquote>
         “How we spend our days is, of course, how we spend our lives.” <br /> — Annie Dillard, The Writing Life
       </blockquote>
-      <address>
-        <span>Summit County, Colorado</span>
-        <span>phone: 303-xxx-xxxx</span>
-        <span>email: blah</span>
-      </address>
       <nav>
         <!-- <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink> -->
@@ -116,7 +115,7 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  /* width: 50%; */
   text-align: center;
 
   /* line-height: 1.5;
@@ -132,6 +131,12 @@ address span:first-of-type {
   border: 0px;
 }
 
+blockquote {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 body {
   text-align: center;
 }
@@ -144,15 +149,15 @@ body div {
 }
 
 #about {
-  background-color: rgb(225, 170, 151);
+  background-color: #dddac2;;
 }
 
 #services {
-  background-color: rgb(225, 170, 151);
+  background-color: #dddac2;;
 }
 
 .service {
-  background-color: rgb(140, 76, 125);
+  background-color:  #a3af8e;
 }
 
 
@@ -170,10 +175,11 @@ aside {
 
 
 .logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+ width: 90%;
+ padding-top: 20px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 nav {
