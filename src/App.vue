@@ -21,7 +21,11 @@
         <!-- <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink> -->
         <!-- <RouterLink to="{ path: '/#advocacy'}"> Advocacy </RouterLink> -->
+        <a href="#about">Advocacy</a>
+        <a href="#occupational-therapy">Occupational Therapy</a>
+        <a href="#consulting">Consulting</a>
         <a href="#advocacy">Advocacy</a>
+        <a href="#pricing">Pricing</a>
       </nav>
     </div>
   </header>
@@ -186,11 +190,12 @@ nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  color: #024702;
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
+  color: #024702;
 }
 
 nav a.router-link-exact-active:hover {
@@ -201,6 +206,7 @@ nav a {
   display: inline-block;
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
+  color: #024702;
 }
 
 nav a:first-of-type {
