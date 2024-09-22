@@ -12,7 +12,7 @@
       <address>
         <span>Summit County, Colorado</span>
         <span>(719) 838-3915</span>
-        <span>erin.stark@summitsproutstherapy.com</span>
+        <span>erin.stark&#8203;@summitsproutstherapy.com</span>
       </address>
       <blockquote>
         “How we spend our days is, of course, how we spend our lives.” <br /> — Annie Dillard, The Writing Life
@@ -37,23 +37,25 @@
       <p>In my 15 years as an occupational therapist, I have worked with infants to seniors in a range of settings, from early intervention to schools, home health to hospitals and skilled nursing facilities. My clients arrive with a range of diagnoses, and together we find the best solutions to meet their needs for daily living. My career and calling is to help you meet your goals. I would love to learn more about you, and I offer a free 20 minute consultation to help determine your specific needs.</p>
       <div id="diagnosis">
         <h3>Examples of Diagnosis</h3>
-        <ul class="diagnosis">
-          <li>ADHD</li>
-          <li>Sensory Processing Disorder</li>
-          <li>Autism</li>
-          <li>Down Syndrome</li>
-          <li>Prader Willi's</li>
-          <li>Cerebral Palsy</li>
-          <li>Developmental Delay</li>
-        </ul>
-        <ul class="diagnosis">
-          <li>Avoidant/restrictive food intake</li>
-          <li>Dementia</li>
-          <li>Stroke</li>
-          <li>Cardiac Issues</li>
-          <li>Orthopedic Injury</li>
-          <li>Aging in Place</li>
-        </ul>
+        <div id="diagnosis-list">
+          <ul class="diagnosis">
+            <li>ADHD</li>
+            <li>Sensory Processing Disorder</li>
+            <li>Autism</li>
+            <li>Down Syndrome</li>
+            <li>Prader Willi's</li>
+            <li>Cerebral Palsy</li>
+            <li>Developmental Delay</li>
+          </ul>
+          <ul class="diagnosis">
+            <li>Avoidant/restrictive food intake</li>
+            <li>Dementia</li>
+            <li>Stroke</li>
+            <li>Cardiac Issues</li>
+            <li>Orthopedic Injury</li>
+            <li>Aging in Place</li>
+          </ul>
+        </div>
       </div>
     <div class="personal">
       <img alt="profile-picture" class="picture" src="@/assets/images/profile-picture.jpg" height="200" />
@@ -194,8 +196,16 @@ ul {
 
 div#diagnosis {
   padding: 0;
+  /* display:table; */
   h3 {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+  }
+  #diagnosis-list{
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+    width: auto; 
+
   }
 
 
@@ -208,7 +218,9 @@ ul.diagnosis {
   margin-right: auto;
   position: relative;
   vertical-align: top;
-  width: 280px;
+  max-width: 280px;
+  width: auto;
+  word-break:normal;
 }
 
 
