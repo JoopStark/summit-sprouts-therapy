@@ -26,6 +26,7 @@
         <a href="#consulting">Consulting</a>
         <a href="#advocacy">Advocacy</a>
         <a href="#pricing">Pricing</a>
+        <a href="/ot-referral-form.pdf" target="_blank">Referral Form</a>
       </nav>
     </div>
   </header>
@@ -144,14 +145,14 @@ header {
   max-height: 100vh; */
 }
 
-address span {
+/* address span {
   padding: 10px;
   border-left: 1px solid
 }
 
 address span:first-of-type {
   border: 0px;
-}
+} */
 
 blockquote {
   margin-top: 10px;
@@ -251,7 +252,7 @@ nav a:first-of-type {
   border: 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 801px) {
   header {
     display: block;
     place-items: center;
@@ -277,5 +278,30 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
+
+  address span {
+  padding: 10px;
+  border-left: 1px solid
+}
+
+address span:first-of-type {
+  border: 0px;
+}
+}
+
+
+@media (max-width: 800px) {
+
+  address span {
+    display: block;
+    padding: 3px 0;
+  }
+  
+  nav a {
+    display: block;
+    border: 0px;
+    padding: 5px 0;
+  }
+
 }
 </style>
