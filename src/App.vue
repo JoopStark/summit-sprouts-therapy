@@ -21,7 +21,7 @@
         <!-- <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink> -->
         <!-- <RouterLink to="{ path: '/#advocacy'}"> Advocacy </RouterLink> -->
-        <a href="#about">Advocacy</a>
+        <a href="#about">About Me</a>
         <a href="#occupational-therapy">Occupational Therapy</a>
         <a href="#consulting">Consulting</a>
         <a href="#advocacy">Advocacy</a>
@@ -34,7 +34,9 @@
   <body>
     <div id="about">
       <h1>About Me</h1>
-      <p>In my 15 years as an occupational therapist, I have worked with infants to seniors in a range of settings, from early intervention to schools, home health to hospitals and skilled nursing facilities. My clients arrive with a range of diagnoses, and together we find the best solutions to meet their needs for daily living. My career and calling is to help you meet your goals. I would love to learn more about you, and I offer a free 20 minute consultation to help determine your specific needs.</p>
+      <p>
+        In my 15 years as an occupational therapist, I have worked with infants to seniors in a range of settings, from early intervention to schools, home health to hospitals and skilled nursing facilities. My clients arrive with a range of diagnoses, and together we find the best solutions to meet their needs for daily living. My career and calling is to help you meet your goals. I would love to learn more about you and/or your family. I offer a free 20 minute consultation to help determine your specific needs.
+      </p>
       <div id="diagnosis">
         <h3>Examples of Diagnosis</h3>
         <div id="diagnosis-list">
@@ -60,10 +62,17 @@
     <div class="personal">
       <img alt="profile-picture" class="picture" src="@/assets/images/profile-picture.jpg" height="200" />
       <h3><b>Erin Stark OTR/L</b></h3>
+      <br>
       <p><u>Education</u></p>
-      <p>B.S. Psychology</p>
-      <p>M.S. Occupational Therapy</p>
-      <p>M.Ed. Education Administration</p>
+      <p>M.S. Occupational Therapy; Columbia University, NY</p>
+      <p>M.Ed. Education Administration; Lamar University, TX</p>
+      <p>B.S. Psychology; Denison University, OH</p>
+      <br>
+      <p><u>Credentials</u></p>
+      <p>Department of Regulatory Agencies OT License</p>
+      <p>National Board of Occupational Therapy Registration</p>
+      <p>Certified Autism Spectrum Disorder Clinical Specialist (ASDCS)</p>
+      <p>Pending: ADHD-Certified Rehabilitation Services Provider (ADHD-RSP)</p>
 
     </div>
 
@@ -77,14 +86,15 @@
 
       <div id="occupation-therapy" class="service">
         <h2>Occupational Therapy</h2>
-        <p>The goal of occupational therapy is to make sure you can function independently in your daily life at any age. I can help you develop or recover necessary skills, including motor, cognitive, social emotional, organizational, or sensory processing skills.  My goal in providing occupational therapy services is to help you meet your goals.
+        <p>
+          The goal of occupational therapy is to make sure you can function independently in your daily life at any age. I can help you develop or recover necessary skills, including motor, cognitive, social emotional, organizational, or sensory processing skills.  My goal in providing occupational therapy services is to help you meet your goals.  I am now excited to offer mobile outpatient and virtual therapy services.
         </p>
       </div>
 
       <div id="consulting" class="service">
         <h2> Community Consulting </h2>
         <p>
-          For providers and caregivers there is nothing more important than ensuring the children or adults we care for are safe and their needs are met. I provide trainings for daycares, schools and other community organizations focusing on sensory processing, self regulation, motor skills, and universal design. 
+          For various community centers there is nothing more important than ensuring the children or adults we care for are able to access the environment safely and ensure their needs are met. I provide trainings and planning support focusing on sensory processing, self regulation, motor skills and universal design. 
         </p>
         <h3 class="list">Services include:</h3>
         <ul>
@@ -92,13 +102,14 @@
           <li>Instructional observations offered in various time increments</li>
           <li>1:1, small group and full staff trainings</li>
           <li>Ongoing in class or group support</li>
+          <li>Support with universal design planning</li>
         </ul>
       </div>
 
       <div id="advocacy" class="service">
         <h2>Advocacy</h2>
         <p>
-          As a parent, you want the best for your child. Navigating school system supports, like an IEP or 504, is daunting. My work in schools for the last 13 years paired with my M.Ed. in Education Administration means I am well versed in the school services and regulations. I also know how important it is to ensure you have clear communication and a positive relationship with your child's school.
+          As a parent, you want the best for your child. Navigating school system supports, like an IEP or 504, is daunting. I also know how important it is to ensure you have clear communication and a positive relationship with your child's school. My work in schools for the last 13 years paired with my M.Ed. in Education Administration means I am well versed in the school services and regulations to help support your family.
         </p>
         <h3 class="list">Services include:</h3>
         <ul>
@@ -108,19 +119,18 @@
           <li>Instructional observations</li>
           <li>Educational program planning</li>
           <li>Advice regarding school-based interventions, goal writing, meeting procedures, and parental rights</li>
-          <li>Attending meetings with the school
-          </li>
+          <li>Attending meetings with the school</li>
         </ul>
       </div>
 
       <div id="pricing" class="service">
         <h2>Pricing</h2>
         <p>$120 an hour</p>
-        <p>Sliding Scale available based on Income and Family Size</p>
-        <p>Discount Packages available for Consulting and Advocacy Services</p>
+        <p>Sliding Scale Available</p>
+        <p>Discount Packages Availabl</p>
         <br>
-        <p><u>Insurance for Occupational Therapy Services</u></p>
-        <p>Medicaid Accepted</p>
+        <p><u>Insurance Options for OT Services</u></p>
+        <p><b>Medicaid Accepted</b></p>
         <p>Pending: CHP+, Blue Cross/ Blue Shield, Cigna, Aetna, United</p>
       
       </div>
@@ -155,6 +165,10 @@ header {
 address span:first-of-type {
   border: 0px;
 } */
+
+b {
+  font-weight: 900;
+}
 
 blockquote {
   margin-top: 10px;
