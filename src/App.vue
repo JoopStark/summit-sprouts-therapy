@@ -84,7 +84,7 @@
     <div id="services">
       <h1>Services</h1>
 
-      <div id="occupation-therapy" class="service">
+      <div id="occupational-therapy" class="service">
         <h2>Occupational Therapy</h2>
         <p>
           The goal of occupational therapy is to make sure you can function independently in your daily life at any age. I can help you develop or recover necessary skills, including motor, cognitive, social emotional, organizational, or sensory processing skills.  My goal in providing occupational therapy services is to help you meet your goals.  I am now excited to offer mobile outpatient and virtual therapy services.
