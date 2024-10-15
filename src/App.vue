@@ -50,7 +50,7 @@
             <li>Developmental Delay</li>
           </ul>
           <ul class="diagnosis">
-            <li>Avoidant/restrictive food intake</li>
+            <li>Avoidant/Restrictive Food Intake</li>
             <li>Dementia</li>
             <li>Stroke</li>
             <li>Cardiac Issues</li>
@@ -94,7 +94,7 @@
       <div id="consulting" class="service">
         <h2> Community Consulting </h2>
         <p>
-          For various community centers there is nothing more important than ensuring the children or adults we care for are able to access the environment safely and ensure their needs are met. I provide trainings and planning support focusing on sensory processing, self regulation, motor skills and universal design. 
+          For various community centers there is nothing more important than ensuring the children or adults we care for are able to access the environment safely and ensure their needs are met. I provide trainings and planning support focusing on sensory processing, self regulation, motor skills, and universal design. 
         </p>
         <h3 class="list">Services include:</h3>
         <ul>
@@ -127,7 +127,7 @@
         <h2>Pricing</h2>
         <p>$120 an hour</p>
         <p>Sliding Scale Available</p>
-        <p>Discount Packages Availabl</p>
+        <p>Discount Packages Available</p>
         <br>
         <p><u>Insurance Options for OT Services</u></p>
         <p><b>Medicaid Accepted</b></p>
