@@ -26,7 +26,7 @@
         <a href="#consulting">Consulting</a>
         <a href="#advocacy">Advocacy</a>
         <a href="#pricing">Pricing</a>
-        <a href="/ot-referral-form.pdf" target="_blank">Referral Form</a>
+        <a href="https://docs.google.com/document/d/1DSJkzAeC5cy1X5sn-XjS-q4VtGO3dc-I/edit?usp=sharing&ouid=107058532227930642315&rtpof=true&sd=true" target="_blank">Referral Form</a>
       </nav>
     </div>
   </header>
@@ -126,7 +126,7 @@
       <div id="pricing" class="service">
         <h2>Pricing</h2>
         <p>$120 an hour</p>
-        <p>Sliding Scale Available</p>
+        <p>Adjusted Scale</p>
         <p>Discount Packages Available</p>
         <br>
         <p><u>Insurance Options for OT Services</u></p>
