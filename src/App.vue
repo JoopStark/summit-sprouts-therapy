@@ -10,9 +10,10 @@
 
     <div class="wrapper">
       <address>
-        <span>Summit County, Colorado</span>
-        <span>(719) 838-3915</span>
+        <span>Phone: 719-838-3915</span>
+        <span>Fax: 720-533-7150</span>
         <span>erin.stark&#8203;@summitsproutstherapy.com</span>
+        <span>Summit County, Colorado</span>
       </address>
       <blockquote>
         “How we spend our days is, of course, how we spend our lives.” <br /> — Annie Dillard, The Writing Life
@@ -73,6 +74,11 @@
       <p>National Board of Occupational Therapy Registration</p>
       <p>Certified Autism Spectrum Disorder Clinical Specialist (ASDCS)</p>
       <p>Pending: ADHD-Certified Rehabilitation Services Provider (ADHD-RSP)</p>
+      <div class="family-pictures">
+        <img alt="family-picture-1" class="family-pictures" src="@/assets/images/girls_pond_circle.png" height="150" />
+        <img alt="family-picture-2" class="family-pictures" src="@/assets/images/paint_cards.png" height="150" />
+        <img alt="family-picture-3" class="family-pictures" src="@/assets/images/pond_reach.png" height="150" />
+      </div>
 
     </div>
 
@@ -87,7 +93,7 @@
       <div id="occupational-therapy" class="service">
         <h2>Occupational Therapy</h2>
         <p>
-          The goal of occupational therapy is to make sure you can function independently in your daily life at any age. I can help you develop or recover necessary skills, including motor, cognitive, social emotional, organizational, or sensory processing skills.  My goal in providing occupational therapy services is to help you meet your goals.  I am now excited to offer mobile outpatient and virtual therapy services.
+          The goal of occupational therapy is to make sure you can function independently in your daily life at any age. I can help you develop or recover necessary skills, including motor, cognitive, social emotional, adaptive (sleep, eating etc.), organizational, and/or sensory processing skills. My goal in providing occupational therapy services is to help you meet your goals. I am now excited to offer mobile outpatient and virtual therapy services.
         </p>
       </div>
 
@@ -129,9 +135,9 @@
         <p>Adjusted Scale</p>
         <p>Discount Packages Available</p>
         <br>
-        <p><u>Insurance Options for OT Services</u></p>
+        <p><u>Insurance Reimbursement Options for OT services</u></p>
         <p><b>Medicaid Accepted</b></p>
-        <p>Pending: CHP+, Blue Cross/ Blue Shield, Cigna, Aetna, United</p>
+        <p>Paid Invoices and Assistance with Medical Insurance Reimbursement Forms</p>
       
       </div>
 
@@ -189,6 +195,11 @@ body div {
 
 #about {
   background-color: #dddac2;;
+  .family-pictures{
+    margin-top: 20px;
+    padding: 0px 70px 0px 70px;
+  }
+
 }
 
 #services {
