@@ -73,7 +73,7 @@
       <p>Department of Regulatory Agencies OT License</p>
       <p>National Board of Occupational Therapy Registration</p>
       <p>Certified Autism Spectrum Disorder Clinical Specialist (ASDCS)</p>
-      <p>Pending: ADHD-Certified Rehabilitation Services Provider (ADHD-RSP)</p>
+      <p>ADHD-Certified Rehabilitation Services Provider (ADHD-RSP)</p>
       <div class="family-pictures">
         <img alt="family-picture-1" class="family-pictures" src="@/assets/images/girls_pond_circle.png" height="150" />
         <img alt="family-picture-2" class="family-pictures" src="@/assets/images/paint_cards.png" height="150" />
@@ -131,7 +131,7 @@
 
       <div id="pricing" class="service">
         <h2>Pricing</h2>
-        <p>$120 an hour</p>
+        <p>$110 per 45 minute session</p>
         <p>Adjusted Scale</p>
         <p>Discount Packages Available</p>
         <br>
