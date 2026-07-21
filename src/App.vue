@@ -131,7 +131,7 @@
 
       <div id="pricing" class="service">
         <h2>Pricing</h2>
-        <p>$110 per 45 minute session</p>
+        <p>$150 for an hour session</p>
         <p>Adjusted Scale</p>
         <p>Discount Packages Available</p>
         <br>
